@@ -368,15 +368,13 @@ ol {
 }
 
 .feature-card {
-  background: var(--bg-card);
-  border-radius: 24px;
+  background: transparent;
   overflow: hidden;
   transition: var(--transition);
 }
 
 .feature-card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
 }
 
 .feature-card-image {
@@ -386,8 +384,8 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eaeaed;
-  padding: 20px;
+  background: transparent;
+  padding: 0;
 }
 
 .feature-card-image img {
@@ -397,7 +395,7 @@ ol {
 }
 
 .feature-card-content {
-  padding: 24px 24px 32px;
+  padding: 16px 0 24px;
 }
 
 .feature-card-content h3 {
