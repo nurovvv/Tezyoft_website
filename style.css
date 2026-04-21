@@ -88,11 +88,11 @@ ol {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
 }
 
 .nav-logo-icon {
-  height: 68px;
+  height: 80px;
   width: auto;
 }
 
